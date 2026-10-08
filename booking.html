@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Safari | Magnifique Safaris</title>
+<meta name="description" content="Start planning your East Africa safari with Magnifique Safaris — send your dates and destination, or reach the concierge directly.">
+<link rel="stylesheet" href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\index.html" class="wordmark">Magnifique<small>SAFARIS &nbsp;·&nbsp; EAST AFRICA</small></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="nav-links">
+      <a href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\index.html">Home</a>
+      <a href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\destinations.html">Destinations</a>
+      <a href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\game-parks.html">Game Parks</a>
+      <a href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\booking.html" class="nav-cta" aria-current="page">Plan a Safari</a>
+    </div>
+  </div>
+</nav>
+
+<header class="section section-dark section-tight">
+  <div class="wrap">
+    <div class="hero-eyebrow">BOOKING</div>
+    <h1 style="color:var(--sand-light); max-width:16ch;">Tell us your dates. We'll do the rest.</h1>
+    <p style="max-width:52ch;">Share a few details below and a concierge will reply within one business day with a first itinerary draft.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap booking-layout">
+
+    <div>
+      <form id="booking-form" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="phone">Phone / WhatsApp</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="field">
+            <label for="travelers">Travelers</label>
+            <input type="number" id="travelers" name="travelers" min="1" value="2" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="destination">Primary destination</label>
+            <select id="destination" name="destination" required>
+              <option value="" disabled selected>Select a destination</option>
+              <option value="tanzania">Tanzania — Serengeti &amp; Ngorongoro</option>
+              <option value="kenya">Kenya — Maasai Mara</option>
+              <option value="uganda">Uganda — Bwindi Gorillas</option>
+              <option value="rwanda">Rwanda — Volcanoes NP</option>
+              <option value="zanzibar">Zanzibar — Coast &amp; Islands</option>
+              <option value="multi">Multi-country route</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="start-date">Preferred start date</label>
+            <input type="date" id="start-date" name="start-date" required>
+          </div>
+        </div>
+
+        <div class="field" style="margin-bottom:18px;">
+          <label for="message">Anything else we should know?</label>
+          <textarea id="message" name="message" placeholder="Trip length, budget range, special occasions, accessibility needs..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Request Itinerary</button>
+        <p class="form-note">No payment is taken here — this only sends your trip request to a concierge.</p>
+      </form>
+
+      <div id="booking-confirm" class="confirm-panel" style="margin-top:24px;">
+        <h3>Thanks, <span class="confirm-name">traveler</span> — request received.</h3>
+        <p>We've noted your interest in <span class="confirm-dest">your selected route</span>. A concierge will follow up by email within one business day with a first itinerary draft.</p>
+      </div>
+    </div>
+
+    <div class="concierge-panel">
+      <h3>Prefer to talk it through?</h3>
+      <p>Reach the concierge desk directly — available every day, all hours.</p>
+      <ul>
+        <li><span>WhatsApp</span><span>+256705394510</span></li>
+        <li><span>Email</span><span>hello@magnifiquesafaris.com</span></li>
+        <li><span>Office</span><span>Kampala, UG</span></li>
+        <li><span>Response time</span><span>Under 24 hrs</span></li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Magnifique Safaris</h4>
+        <p style="max-width:32ch;">Bespoke East Africa safaris — planned, guided and hosted from arrival to departure.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\index.html">Home</a>
+        <a href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\destinations.html">Destinations</a>
+        <a href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\game-parks.html">Game Parks</a>
+        <a href="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\booking.html">Book a Safari</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:hello@magnifiquesafaris.com">hello@magnifiquesafaris.com</a>
+        <a href="tel:+256704800319">+256704800319</a>
+        <a href="#">WhatsApp Concierge</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Magnifique Safaris. All rights reserved.TROD EA</span>
+      <span>Kampala, UGANDA</span>
+    </div>
+  </div>
+</footer>
+
+<script src="C:\Users\DAN TECH\OneDrive\Desktop\magnifique\script.js"></script>
+</body>
+</html>
